@@ -4,17 +4,6 @@ st.set_page_config(layout="wide")
 
 st.markdown("""
 <style>
-
-section.main > div {
-    max-width: 100% !important;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-div.stButton {
-    width: 100% !important;
-}
-
 div.stButton > button {
     width: 100% !important;
     display: flex;
