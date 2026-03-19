@@ -6,7 +6,7 @@ st.markdown("""
 <style>
             
 .stApp {
-    background-image: url("https://raw.githubusercontent.com/ziyadohao-lab/Konec-TBS/blob/main/Background.pn");
+    background-image: url("https://raw.githubusercontent.com/ziyadohao-lab/Konec-TBS/blob/main/Background.png");
     background-size: cover;        /* 铺满 */
     background-position: center;   /* 居中 */
     background-repeat: no-repeat;  /* 不重复 */
