@@ -1,20 +1,13 @@
 import streamlit as st
-import base64
-
-def get_base64(file):
-    with open(file, "rb") as f:
-        return base64.b64encode(f.read()).decode()
-
-img = get_base64("Background.png")
 
 st.markdown("""
 <style>
             
 .stApp {
-    background-image: url("data:image/png;base64,{img}");
-    background-size: cover;        /* 铺满 */
-    background-position: center;   /* 居中 */
-    background-repeat: no-repeat;  /* 不重复 */
+    background-image: url("https://raw.githubusercontent.com/ziyadohao-lab/Konec-TBS/main/Background.png")
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
             
 div.stButton > button {
