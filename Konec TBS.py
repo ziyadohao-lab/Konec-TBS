@@ -1742,8 +1742,8 @@ st.html("""
         }
 
         .st-key-left_btn button:hover {
+            text-align: left !important;
             justify-content: flex-start;
-            text-align: left;
             border: none;
         }
 
