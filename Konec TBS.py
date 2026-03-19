@@ -888,23 +888,23 @@ if st.session_state.step == 201:
 
     st.subheader("Common Issue")
 
-    if st.button("The resident is unable to open the door using the app.(Lock is online)"):
+    if st.button("The resident is unable to open the door using the app.(Lock is online)", key="left_btn"):
         next_step(203)
 
-    if st.button("PIN / fob key doesn't work"):
+    if st.button("PIN / fob key doesn't work", key="left_btn"):
         next_step(204)
 
-    if st.button("Lock never locked"):
+    if st.button("Lock never locked", key="left_btn"):
         st.session_state.code = 31
         st.rerun()
 
-    if st.button("The numbers and symbols on the panel are not lit up"):
+    if st.button("The numbers and symbols on the panel are not lit up", key="left_btn"):
         next_step(207)
 
-    if st.button("The numbers and symbols on the panel are not responding"):
+    if st.button("The numbers and symbols on the panel are not responding", key="left_btn"):
         next_step(208)
 
-    if st.button("Battery draw issue - Lock.The battery level of the door lock dropped from 100% to below 20% within one month."):
+    if st.button("Battery draw issue - Lock.The battery level of the door lock dropped from 100% to below 20% within one month.", key="left_btn"):
         st.session_state.code = 36
         st.rerun()
 
@@ -1180,7 +1180,6 @@ if st.session_state.step == 253:
 
     if st.button("Back", key="black_btn"):
         next_step(252)
-
 
 
 # Is the parameter set correctly? Low sensitivity - 4dm
@@ -1736,8 +1735,14 @@ st.html("""
             color: black !important;
             border: none;
         }
+
         .st-key-red_btn button:hover {
             background-color: #ff4444 !important;
+            border: none;
+        }
+
+        .st-key-left_btn button:hover {
+            text-align: left;
             border: none;
         }
 
