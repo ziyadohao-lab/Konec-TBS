@@ -1,11 +1,17 @@
 import streamlit as st
 
+st.set_page_config(layout="wide")
+
 st.markdown("""
 <style>
+div.stButton {
+    width: 100%;
+}
+
 div.stButton > button {
+    width: 100%;
     text-align: left;
     justify-content: flex-start;
-    width: 100%;
 }
 </style>
 """, unsafe_allow_html=True)
