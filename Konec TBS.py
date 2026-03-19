@@ -4,6 +4,15 @@ st.set_page_config(layout="wide")
 
 st.markdown("""
 <style>
+            
+.stApp {
+    background-image: url("https://https://github.com/ziyadohao-lab/Konec-TBS/blob/main/Background.png");
+    background-size: cover;        /* 铺满 */
+    background-position: center;   /* 居中 */
+    background-repeat: no-repeat;  /* 不重复 */
+    background-attachment: fixed;  /* 滚动时固定（高级感） */
+}
+            
 div.stButton > button {
     width: 100% !important;
     display: flex;
