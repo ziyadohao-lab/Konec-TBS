@@ -5,19 +5,16 @@ st.set_page_config(layout="wide")
 st.markdown("""
 <style>
 
-/* 让整个主内容区域撑满 */
 section.main > div {
     max-width: 100% !important;
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
-/* 让按钮外层容器撑满 */
 div.stButton {
     width: 100% !important;
 }
 
-/* 让按钮本身撑满 */
 div.stButton > button {
     width: 100% !important;
     display: flex;
@@ -1767,10 +1764,6 @@ st.html("""
         .st-key-red_btn button:hover {
             background-color: #ff4444 !important;
             border: none;
-        }
-
-        div.stButton > button {
-        width: 100%;
         }
         
     </style>
