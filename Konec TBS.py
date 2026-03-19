@@ -901,10 +901,10 @@ if st.session_state.step == 201:
     if st.button("The resident is unable to open the door using the app.(Lock is online)"):
         next_step(203)
 
-    if st.button("PIN / fob key doesn't work", key="wid_btn"):
+    if st.button("PIN / fob key doesn't work"):
         next_step(204)
 
-    if st.button("Lock never locked", key="wid_btn"):
+    if st.button("Lock never locked"):
         st.session_state.code = 31
         st.rerun()
 
@@ -1751,8 +1751,8 @@ st.html("""
             border: none;
         }
 
-        .st-key-wid_btn button {
-            width: 100%;
+        div.stButton > button {
+        width: 100%;
         }
         
     </style>
