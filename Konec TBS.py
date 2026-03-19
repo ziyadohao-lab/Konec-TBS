@@ -5,6 +5,7 @@ st.markdown("""
 div.stButton > button {
     text-align: left;
     justify-content: flex-start;
+    width: 100%;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -12,7 +13,7 @@ div.stButton > button {
 st.image("logo.png", width=200)
 st.set_page_config(page_title="Trouble shooting", page_icon="🔧", layout="wide")
 
-st.title("Trouble shooting Tool")
+st.title("Trouble Shooting Tool")
 
 if "step" not in st.session_state:
     st.session_state.step = 0
