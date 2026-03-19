@@ -7,7 +7,7 @@ def get_base64(file):
 
 img = get_base64("Background.png")
 
-st.markdown("""
+st.markdown(f"""
 <style>
             
 .stApp {
