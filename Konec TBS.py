@@ -4,7 +4,7 @@ st.markdown("""
 <style>
             
 .stApp {
-    background-image: url("https://raw.githubusercontent.com/ziyadohao-lab/Konec-TBS/main/bg.png");
+    background-image: url("https://raw.githubusercontent.com/ziyadohao-lab/Konec-TBS/main/bgd.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -345,20 +345,48 @@ if st.session_state.step == 0:
 
     st.subheader("Disclaimers")
     
-    st.write("")
-    st.write("")
+    st.markdown("""
+        <style>
+        .disclaimer-box {
+            background-color: white;
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid #ddd;
+            color: black;
+            line-height: 1.6;
+        }
+        </style>
+        """, unsafe_allow_html=True)
 
-    st.write("1. Please follow all instructions carefully and ensure compliance with AS/NZS 3000 and local regulations. Improper installation or modification may void the warranty and result in safety risks. ")
-    st.write("2. The information provided in this manual is for general guidance and reference purposes only. Konec Solutions Pty Ltd makes no representations or warranties, express or implied, regarding the completeness, accuracy, or suitability of the content. Product specifications, features, and visuals are subject to change without notice. ")
-    st.write("3. To the extent allowed by law, Konec Solutions is not liable for any damage, injury, or loss resulting from the use of this guide or the installation process. ")
-    st.write("4. This disclaimer does not affect your rights under the Australian Consumer Law or the New Zealand Consumer Guarantees Act 1993. ")
-    st.write("5. This product is designed for professional installation.")
-    st.write("6. Disconnect power before starting installation or maintenance.")
-    st.write("7. Do not exceed the product's rated electrical capacity.")
-    st.write("8. Avoid using power tools unless explicitly specified.")
-    st.write("9. Use appropriate personal protective equipment (e.g., gloves, safety glasses).")
-    st.write("10. Do not install in areas exposed to water or high humidity unless rated for such conditions.")
-    st.write("11. All content in this App including text, images, and graphics—is the property of Konec Solutions. No part may be reproduced, translated, or modified without prior written permission. ")
+    st.subheader("Disclaimers")
+
+    st.markdown("""
+        <div class="disclaimer-box">
+
+        1. Please follow all instructions carefully and ensure compliance with AS/NZS 3000 and local regulations. Improper installation or modification may void the warranty and result in safety risks.  
+
+        2. The information provided in this manual is for general guidance and reference purposes only. Konec Solutions Pty Ltd makes no representations or warranties, express or implied, regarding the completeness, accuracy, or suitability of the content. Product specifications, features, and visuals are subject to change without notice.  
+
+        3. To the extent allowed by law, Konec Solutions is not liable for any damage, injury, or loss resulting from the use of this guide or the installation process.  
+
+        4. This disclaimer does not affect your rights under the Australian Consumer Law or the New Zealand Consumer Guarantees Act 1993.  
+
+        5. This product is designed for professional installation.  
+
+        6. Disconnect power before starting installation or maintenance.  
+
+        7. Do not exceed the product's rated electrical capacity.  
+        
+        8. Avoid using power tools unless explicitly specified.  
+                
+        9. Use appropriate personal protective equipment (e.g., gloves, safety glasses).  
+
+        10. Do not install in areas exposed to water or high humidity unless rated for such conditions.  
+
+        11. All content in this App including text, images, and graphics is the property of Konec Solutions. No part may be reproduced without prior written permission.  
+
+        </div>
+    """, unsafe_allow_html=True)
 
     st.write("")
     st.write("")
