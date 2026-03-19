@@ -6,9 +6,9 @@ st.markdown("""
 .stApp {
     background-image: url("https://raw.githubusercontent.com/ziyadohao-lab/Konec-TBS/main/bg.png");
     background-size: cover;
-    background-position: center;   /* 居中 */
-    background-repeat: no-repeat;  /* 不重复 */
-    background-attachment: fixed;  /* 滚动时固定（高级感） */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
                    
 div.stButton > button {
