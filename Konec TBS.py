@@ -4,15 +4,27 @@ st.set_page_config(layout="wide")
 
 st.markdown("""
 <style>
-div.stButton {
-    width: 100%;
+
+/* 让整个主内容区域撑满 */
+section.main > div {
+    max-width: 100% !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
-div.stButton > button {
-    width: 100%;
-    text-align: left;
-    justify-content: flex-start;
+/* 让按钮外层容器撑满 */
+div.stButton {
+    width: 100% !important;
 }
+
+/* 让按钮本身撑满 */
+div.stButton > button {
+    width: 100% !important;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+}
+
 </style>
 """, unsafe_allow_html=True)
 
