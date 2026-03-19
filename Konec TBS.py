@@ -342,8 +342,6 @@ def next_step(step):
 
 # Disclaimer
 if st.session_state.step == 0:
-
-    st.subheader("Disclaimers")
     
     st.markdown("""
         <style>
