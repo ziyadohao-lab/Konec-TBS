@@ -10,6 +10,18 @@ st.markdown("""
     background-attachment: fixed;
 }
             
+.stApp::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0, 0, 0, 0.4); /* 半透明黑 */
+    z-index: -1;
+}
+            
 div.stButton > button {
     display: flex;
     justify-content: flex-start;
