@@ -11,7 +11,7 @@ st.markdown("""
 <style>
             
 .stApp {
-    background-image: ("data:image/png;base64,{img}");
+    background-image: url("data:image/png;base64,{img}");
     background-size: cover;        /* 铺满 */
     background-position: center;   /* 居中 */
     background-repeat: no-repeat;  /* 不重复 */
