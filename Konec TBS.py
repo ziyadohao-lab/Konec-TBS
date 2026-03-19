@@ -2,14 +2,12 @@ import streamlit as st
 
 st.markdown("""
 <style>
-            
 .stApp {
-    background-image: url("https://raw.githubusercontent.com/ziyadohao-lab/Konec-TBS/main/bg.png")
+    background-image: url("https://raw.githubusercontent.com/ziyadohao-lab/Konec-TBS/main/bg.png");
     background-size: cover;
 }
             
 div.stButton > button {
-    width: 100% !important;
     display: flex;
     justify-content: flex-start;
     text-align: left;
