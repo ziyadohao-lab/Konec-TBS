@@ -7,7 +7,7 @@ def get_base64(file):
 
 img = get_base64("Background.png")
 
-st.markdown(f"""
+st.markdown("""
 <style>
             
 .stApp {
@@ -15,7 +15,6 @@ st.markdown(f"""
     background-size: cover;        /* 铺满 */
     background-position: center;   /* 居中 */
     background-repeat: no-repeat;  /* 不重复 */
-    background-attachment: fixed;  /* 滚动时固定（高级感） */
 }
             
 div.stButton > button {
