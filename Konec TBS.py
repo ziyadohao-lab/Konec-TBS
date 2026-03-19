@@ -5,6 +5,9 @@ st.markdown("""
 .stApp {
     background-image: url("https://raw.githubusercontent.com/ziyadohao-lab/Konec-TBS/main/bg.png");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
             
 div.stButton > button {
