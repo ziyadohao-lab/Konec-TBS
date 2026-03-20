@@ -20,7 +20,7 @@ div.stButton > button {
 </style>
 """, unsafe_allow_html=True)
 
-st.image("logo.png", width = 200)
+st.image("logo.png")
 st.set_page_config(page_title="Trouble shooting", page_icon="🔧", layout="wide")
 
 st.title("Trouble Shooting Tool")
@@ -408,7 +408,7 @@ if st.session_state.step == 1:
         st.session_state.product_num = 2
         next_step(2)
 
-    if col3.button("HPS"):
+    if col3.button("Human Presence Sensor"):
         st.session_state.product_num = 3
         next_step(2)
 
