@@ -20,7 +20,7 @@ div.stButton > button {
 </style>
 """, unsafe_allow_html=True)
 
-st.image("logo.png")
+st.image("logo.png", width = 200)
 st.set_page_config(page_title="Trouble shooting", page_icon="🔧", layout="wide")
 
 st.title("Trouble Shooting Tool")
