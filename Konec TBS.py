@@ -42,7 +42,7 @@ if st.session_state.code is not None:
 
     code = st.session_state.code
 
-    st.success(f"Diagnosis Report:")
+    st.write("Diagnosis Report:")
 
     if code == 1:
         st.write("Contact Konec.")
