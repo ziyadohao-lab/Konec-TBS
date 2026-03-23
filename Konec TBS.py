@@ -24,7 +24,7 @@ with open("logo.svg", "r") as f:
     svg = f.read()
 
 st.markdown(
-    f'<div style="width:150px">{svg}</div>',
+    f'<div style="width:100px">{svg}</div>',
     unsafe_allow_html=True
 )
 
