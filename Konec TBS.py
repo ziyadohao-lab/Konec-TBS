@@ -23,7 +23,10 @@ div.stButton > button {
 with open("logo.svg", "r") as f:
     svg = f.read()
 
-st.markdown(svg, unsafe_allow_html=True)
+st.markdown(
+    f'<div style="width:150px">{svg}</div>',
+    unsafe_allow_html=True
+)
 
 st.set_page_config(page_title="Trouble shooting", page_icon="🔧", layout="wide")
 
