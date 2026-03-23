@@ -20,7 +20,11 @@ div.stButton > button {
 </style>
 """, unsafe_allow_html=True)
 
-st.image("logo.png")
+with open("logo.svg", "r") as f:
+    svg = f.read()
+
+st.markdown(svg, unsafe_allow_html=True)
+
 st.set_page_config(page_title="Trouble shooting", page_icon="🔧", layout="wide")
 
 st.title("Trouble Shooting Tool")
