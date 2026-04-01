@@ -536,7 +536,7 @@ if st.session_state.step == 6:
         
     st.write("")
 
-    st.image("AP Light.png", width=400)
+    st.image("AP Light.svg", width=400)
 
     if st.button("Back", key="black_btn"):
         next_step(5)
