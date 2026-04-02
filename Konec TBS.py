@@ -13,6 +13,8 @@ st.markdown("""
                    
 div.stButton > button {
     text-align: left;
+    display: flex;
+    justify-content: flex-start;
 }
             
 div.stButton:has(button[data-testid="baseButton-black_btn"]) {
