@@ -37,25 +37,6 @@ if "step" not in st.session_state:
 if "code" not in st.session_state:
     st.session_state.code = None
 
-st.markdown("""
-<style>
-
-/* 只改最后一个按钮 */
-div.stButton:last-child button {
-    background: none !important;
-    border: none !important;
-    color: black !important;
-    padding: 0 !important;
-}
-
-/* hover */
-div.stButton:last-child button:hover {
-    color: #2563eb !important;
-}
-
-</style>
-""", unsafe_allow_html=True)
-
 #Result
 if st.session_state.code is not None:
 
@@ -1781,6 +1762,18 @@ if st.session_state.step == 355:
 
 st.html("""
     <style>
+        .st-key-black_btn button {
+            background-color: None !important;
+            color: black !important;
+            border: none !important;
+            padding: 0 !important;
+        }
+        
+        .st-key-black_btn button:hover {
+            color: #2563eb !important;
+            border: none;
+        }
+
         .st-key-green_btn button {
             background-color: #88ff91 !important;
             color: black !important;
