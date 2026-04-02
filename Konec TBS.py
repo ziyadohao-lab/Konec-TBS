@@ -1762,8 +1762,7 @@ st.html("""
     <style>
 
         .st-key-black_btn button {
-            width: 1000px;
-            text-align: right;
+            display: right
             Background: none !important;
             border: none !important;
             color: black !important;
