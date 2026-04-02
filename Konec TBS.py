@@ -16,11 +16,6 @@ div.stButton > button {
     display: flex;
     justify-content: flex-start;
 }
-            
-div.stButton:has(button[data-testid="baseButton-black_btn"]) {
-            display: flex !important;
-            justify-content: flex-end !important;
-        }
 
 </style>
 """, unsafe_allow_html=True)
@@ -1782,21 +1777,21 @@ st.html("""
         .st-key-green_btn button {
             Background-color: #F3F4F6 !important;
             color: black !important;
-            border: none;
+            border: #D1D5DB;
         }
         .st-key-green_btn button:hover {
-            Background-color: #3bcf45 !important;
+            Background-color: #88ff91 !important;
             border: none;
         }
         
         .st-key-red_btn button {
             Background-color: #F3F4F6 !important;
             color: black !important;
-            border: none;
+            border: #D1D5DB;
         }
 
         .st-key-red_btn button:hover {
-            Background-color: #ff4444 !important;
+            Background-color: #ff8888 !important;
             border: none;
         }
 
