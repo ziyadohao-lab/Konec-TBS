@@ -40,30 +40,21 @@ if "code" not in st.session_state:
 st.markdown("""
 <style>
 
-/* 只选中 key="black_btn" 的按钮 */
-button[kind="secondary"][data-testid="baseButton-black_btn"] {
+/* 只改最后一个按钮 */
+div.stButton:last-child button {
     background: none !important;
     border: none !important;
     color: black !important;
     padding: 0 !important;
-    text-align: left;
 }
 
-/* hover 变蓝 */
-button[kind="secondary"][data-testid="baseButton-black_btn"]:hover {
+/* hover */
+div.stButton:last-child button:hover {
     color: #2563eb !important;
-    background: none !important;
-}
-
-/* 去掉点击边框 */
-button[kind="secondary"][data-testid="baseButton-black_btn"]:focus {
-    outline: none !important;
-    box-shadow: none !important;
 }
 
 </style>
 """, unsafe_allow_html=True)
-
 
 #Result
 if st.session_state.code is not None:
@@ -1790,7 +1781,6 @@ if st.session_state.step == 355:
 
 st.html("""
     <style>
-
         .st-key-green_btn button {
             background-color: #88ff91 !important;
             color: black !important;
