@@ -1803,7 +1803,7 @@ st.html("""
             padding: 0 !important;
         }
         
-        .st-key-greentext button:hover {
+        .st-key-greentext_btn button:hover {
             color: #2563eb !important;
             border: none;
         }
