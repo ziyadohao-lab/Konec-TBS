@@ -28,9 +28,9 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.set_page_config(page_title="Trouble shooting", page_icon="🔧", layout="wide")
+st.set_page_config(page_title="Troubleshooting", page_icon="🔧", layout="wide")
 
-st.title("Trouble Shooting Tool")
+st.title("Troubleshooting Tool")
 
 if "step" not in st.session_state:
     st.session_state.step = 0
