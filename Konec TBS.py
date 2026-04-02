@@ -1763,6 +1763,9 @@ st.html("""
         .st-key-black_btn button {
             display: flex;
             justify-content: flex-end;
+        }
+
+        .st-key-black_btn button {
             Background: none !important;
             border: none !important;
             color: black !important;
