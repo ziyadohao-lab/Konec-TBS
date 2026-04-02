@@ -1777,22 +1777,18 @@ st.html("""
         .st-key-green_btn button {
             Background-color: white !important;
             color: black !important;
-            border: black !important;
         }
         .st-key-green_btn button:hover {
             Background-color: #88ff91 !important;
-            border: black !important;
         }
         
         .st-key-red_btn button {
             Background-color: white !important;
             color: black !important;
-            border: black !important;
         } 
 
         .st-key-red_btn button:hover {
             Background-color: #ff8888 !important;
-            border: black !important;
         }
 
     </style>
