@@ -4,11 +4,11 @@ st.markdown("""
 <style>
             
 .stApp {
-    background-image: url("https://raw.githubusercontent.com/ziyadohao-lab/Konec-TBS/main/bgd.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    ← Background-image: url("https://raw.githubusercontent.com/ziyadohao-lab/Konec-TBS/main/bgd.png");
+    ← Background-size: cover;
+    ← Background-position: center;
+    ← Background-repeat: no-repeat;
+    ← Background-attachment: fixed;
 }
                    
 div.stButton > button {
@@ -117,7 +117,7 @@ if st.session_state.code is not None:
         st.write("If everything is normal, then contact an electrician to replace the device.")
 
     elif code == 18:
-        st.write("Remove the item, the device come back online after a while.")
+        st.write("Remove the item, the device come ← Back online after a while.")
 
     elif code == 19:
         st.write("Remove the panel cover and check that the screws are in good condition and the base is installed evenly. If everything is normal, wait 30 seconds before reattaching the cover to restart the device.")
@@ -278,14 +278,14 @@ if st.session_state.code is not None:
         st.write("Contact Konec to check and reset Multi-control.")
 
     elif code == 55:
-        st.write("Please follow the troubleshooting steps for control issue to ensure both devices are back online.")
+        st.write("Please follow the troubleshooting steps for control issue to ensure both devices are ← Back online.")
 
     elif code == 56:
         st.write("Re-plug both the cable and the gateway power adapter.")
         st.write("If the issue persists, please contact Konec to check and reset multi-control.")
 
     elif code == 57:
-        st.write("Please follow the troubleshooting steps for control issue to ensure both devices are back online.")
+        st.write("Please follow the troubleshooting steps for control issue to ensure both devices are ← Back online.")
 
     elif code == 58:
         st.write("Contact Konec to check and reset automation")
@@ -353,7 +353,7 @@ if st.session_state.step == 0:
     st.markdown("""
         <style>
         .disclaimer-box {
-            background-color: white;
+            ← Background-color: white;
             padding: 20px;
             border-radius: 12px;
             border: 1px solid #ddd;
@@ -448,7 +448,7 @@ if st.session_state.step == 2:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(1)
 
 
@@ -469,7 +469,7 @@ if st.session_state.step == 3:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(2)
 
 
@@ -491,7 +491,7 @@ if st.session_state.step == 4:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(3)
 
 
@@ -513,7 +513,7 @@ if st.session_state.step == 5:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(4)
 
 
@@ -538,7 +538,7 @@ if st.session_state.step == 6:
 
     st.image("AP Light.svg", width=400)
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(5)
 
 
@@ -566,7 +566,7 @@ if st.session_state.step == 7:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(3)
 
 
@@ -587,7 +587,7 @@ if st.session_state.step == 9:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(3)
 
 
@@ -610,7 +610,7 @@ if st.session_state.step == 10:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(9)
 
 
@@ -632,7 +632,7 @@ if st.session_state.step == 11:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(9)
 
 
@@ -655,7 +655,7 @@ if st.session_state.step == 12:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(11)
 
 
@@ -680,7 +680,7 @@ if st.session_state.step == 51:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(3)
 
 
@@ -703,7 +703,7 @@ if st.session_state.step == 52:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(51)
 
 
@@ -726,7 +726,7 @@ if st.session_state.step == 71:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(3)
 
 
@@ -748,7 +748,7 @@ if st.session_state.step == 72:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(71)
 
 
@@ -771,7 +771,7 @@ if st.session_state.step == 73:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(72)
 
 
@@ -793,7 +793,7 @@ if st.session_state.step == 74:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(71)
 
 
@@ -815,7 +815,7 @@ if st.session_state.step == 75:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(74)
 
 
@@ -838,7 +838,7 @@ if st.session_state.step == 76:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(75)
 
 
@@ -860,7 +860,7 @@ if st.session_state.step == 77:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(71)
 
 
@@ -882,7 +882,7 @@ if st.session_state.step == 78:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(77)
 
 
@@ -905,7 +905,7 @@ if st.session_state.step == 79:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(78)
 
 
@@ -932,7 +932,7 @@ if st.session_state.step == 200:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(2)
 
 
@@ -965,7 +965,7 @@ if st.session_state.step == 201:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(2)
 
 
@@ -988,7 +988,7 @@ if st.session_state.step == 203:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(201)
 
 
@@ -1010,7 +1010,7 @@ if st.session_state.step == 204:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(201)
 
 
@@ -1032,7 +1032,7 @@ if st.session_state.step == 205:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(204)
 
 
@@ -1055,7 +1055,7 @@ if st.session_state.step == 206:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(205)
 
 
@@ -1078,7 +1078,7 @@ if st.session_state.step == 207:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(201)
 
 
@@ -1101,7 +1101,7 @@ if st.session_state.step == 208:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(201)
 
 
@@ -1119,7 +1119,7 @@ if st.session_state.step == 231:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(2)
 
 
@@ -1141,7 +1141,7 @@ if st.session_state.step == 232:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         if st.session_state.num232_num == 1:
             next_step(231)
         else:
@@ -1167,7 +1167,7 @@ if st.session_state.step == 233:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(232)
 
 
@@ -1188,7 +1188,7 @@ if st.session_state.step == 251:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(2)
 
 
@@ -1209,7 +1209,7 @@ if st.session_state.step == 252:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(251)
 
 
@@ -1231,7 +1231,7 @@ if st.session_state.step == 253:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(252)
 
 
@@ -1253,7 +1253,7 @@ if st.session_state.step == 254:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(251)
 
 
@@ -1276,7 +1276,7 @@ if st.session_state.step == 255:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         if st.session_state.Iot_num == 1:
             next_step(253)
         else:
@@ -1302,7 +1302,7 @@ if st.session_state.step == 256:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(252)
 
 
@@ -1335,7 +1335,7 @@ if st.session_state.step == 271:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(2)
 
 
@@ -1357,7 +1357,7 @@ if st.session_state.step == 272:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(271)
 
 
@@ -1380,7 +1380,7 @@ if st.session_state.step == 273:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(272)
 
 
@@ -1403,7 +1403,7 @@ if st.session_state.step == 274:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         if st.session_state.num274_num == 1:
             next_step(272)
         else:
@@ -1429,7 +1429,7 @@ if st.session_state.step == 275:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         if st.session_state.num275_num == 1:
             next_step(271)
         else:
@@ -1455,7 +1455,7 @@ if st.session_state.step == 276:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(275)
 
 
@@ -1476,7 +1476,7 @@ if st.session_state.step == 277:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         if st.session_state.num277_num == 1:
             next_step(271)
         elif st.session_state.num277_num == 2:
@@ -1506,7 +1506,7 @@ if st.session_state.step == 278:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(271)
 
 
@@ -1529,7 +1529,7 @@ if st.session_state.step == 279:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(277)
 
 
@@ -1551,7 +1551,7 @@ if st.session_state.step == 280:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(271)
 
 
@@ -1574,7 +1574,7 @@ if st.session_state.step == 281:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(280)
 
 
@@ -1596,7 +1596,7 @@ if st.session_state.step == 282:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(271)
 
 
@@ -1619,7 +1619,7 @@ if st.session_state.step == 283:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(282)
 
 
@@ -1642,10 +1642,8 @@ if st.session_state.step == 284:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(271)
-
-
 
 # Common Issue for HID
 if st.session_state.step == 350:
@@ -1666,7 +1664,7 @@ if st.session_state.step == 350:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(1)
 
 
@@ -1688,7 +1686,7 @@ if st.session_state.step == 351:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(350)
 
 
@@ -1710,7 +1708,7 @@ if st.session_state.step == 352:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(351)
 
 
@@ -1733,7 +1731,7 @@ if st.session_state.step == 354:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(352)
 
 
@@ -1756,14 +1754,14 @@ if st.session_state.step == 355:
         
     st.write("")
 
-    if st.button("Back", key="black_btn"):
+    if st.button("← Back", key="black_btn"):
         next_step(350)
 
 
 st.html("""
     <style>
         .st-key-black_btn button {
-            background: none !important;
+            ← Background: none !important;
             border: none !important;
             color: black !important;
             padding: 0 !important;
@@ -1775,23 +1773,23 @@ st.html("""
         }
 
         .st-key-green_btn button {
-            background-color: #88ff91 !important;
+            ← Background-color: #88ff91 !important;
             color: black !important;
             border: none;
         }
         .st-key-green_btn button:hover {
-            background-color: #3bcf45 !important;
+            ← Background-color: #3bcf45 !important;
             border: none;
         }
         
         .st-key-red_btn button {
-            background-color: #ff8888 !important;
+            ← Background-color: #ff8888 !important;
             color: black !important;
             border: none;
         }
 
         .st-key-red_btn button:hover {
-            background-color: #ff4444 !important;
+            ← Background-color: #ff4444 !important;
             border: none;
         }
         
