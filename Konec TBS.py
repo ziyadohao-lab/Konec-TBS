@@ -396,7 +396,7 @@ if st.session_state.step == 0:
     st.write("")
     st.write("")
 
-    if st.button("I Agree", key = "greentext_btn"):
+    if st.button("I Agree", key = "green_btn"):
         next_step(1)
 
 
@@ -1795,18 +1795,5 @@ st.html("""
             border: none;
         }
 
-        .st-key-greentext_btn button {
-            Background: none !important;
-            border: none !important;
-            color: black !important;
-            font-size: 30px !important;
-            padding: 0 !important;
-        }
-        
-        .st-key-greentext_btn button:hover {
-            color: #2563eb !important;
-            border: none;
-        }
-        
     </style>
 """)
