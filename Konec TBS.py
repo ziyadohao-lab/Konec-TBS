@@ -4,11 +4,11 @@ st.markdown("""
 <style>
             
 .stApp {
-    ← Background-image: url("https://raw.githubusercontent.com/ziyadohao-lab/Konec-TBS/main/bgd.png");
-    ← Background-size: cover;
-    ← Background-position: center;
-    ← Background-repeat: no-repeat;
-    ← Background-attachment: fixed;
+    Background-image: url("https://raw.githubusercontent.com/ziyadohao-lab/Konec-TBS/main/bgd.png");
+    Background-size: cover;
+    Background-position: center;
+    Background-repeat: no-repeat;
+    Background-attachment: fixed;
 }
                    
 div.stButton > button {
@@ -1761,8 +1761,9 @@ if st.session_state.step == 355:
 st.html("""
     <style>
         .st-key-black_btn {
-            display: flex !important;
-            justify-content: flex-end !important;
+            display: flex;
+            justify-content: flex-end;
+            text-align: right;
         }
 
         .st-key-black_btn button {
