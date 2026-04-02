@@ -1761,7 +1761,7 @@ if st.session_state.step == 355:
 st.html("""
     <style>
         .st-key-black_btn button {
-            ← Background: none !important;
+            Background: none !important;
             border: none !important;
             color: black !important;
             padding: 0 !important;
@@ -1773,23 +1773,23 @@ st.html("""
         }
 
         .st-key-green_btn button {
-            ← Background-color: #88ff91 !important;
+            Background-color: #88ff91 !important;
             color: black !important;
             border: none;
         }
         .st-key-green_btn button:hover {
-            ← Background-color: #3bcf45 !important;
+            Background-color: #3bcf45 !important;
             border: none;
         }
         
         .st-key-red_btn button {
-            ← Background-color: #ff8888 !important;
+            Background-color: #ff8888 !important;
             color: black !important;
             border: none;
         }
 
         .st-key-red_btn button:hover {
-            ← Background-color: #ff4444 !important;
+            Background-color: #ff4444 !important;
             border: none;
         }
         
