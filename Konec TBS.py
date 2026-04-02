@@ -1765,6 +1765,7 @@ st.html("""
             Background: none !important;
             border: none !important;
             color: black !important;
+            font-size: 20px;
             padding: 0 !important;
         }
         
