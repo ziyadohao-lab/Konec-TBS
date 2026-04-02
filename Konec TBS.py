@@ -1761,7 +1761,8 @@ if st.session_state.step == 355:
 st.html("""
     <style>
         .st-key-black_btn {
-            display: right;
+            display: flex !important;
+            justify-content: flex-end !important;
         }
 
         .st-key-black_btn button {
