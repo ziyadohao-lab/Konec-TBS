@@ -17,10 +17,32 @@ div.stButton > button {
     text-align: left;
 }
             
+/* ✅ 只选中 Back 按钮的外层，让它靠右 */
 div.stButton:has(button[data-testid="baseButton-black_btn"]) {
-            display: flex !important;
-            justify-content: flex-end !important;
-        }
+    display: flex !important;
+    justify-content: flex-end !important;
+}
+
+/* ✅ 关键：让 Back 按钮“不要占满宽度” */
+button[data-testid="baseButton-black_btn"] {
+    width: auto !important;          /* 关键！！ */
+    justify-content: flex-end !important;
+    background: none !important;
+    border: none !important;
+    color: black !important;
+    padding: 0 !important;
+}
+
+/* hover */
+button[data-testid="baseButton-black_btn"]:hover {
+    color: #2563eb !important;
+}
+
+/* 去掉 focus */
+button[data-testid="baseButton-black_btn"]:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
 
 </style>
 """, unsafe_allow_html=True)
@@ -1765,19 +1787,6 @@ if st.session_state.step == 355:
 
 st.html("""
     <style>
-
-        .st-key-black_btn button {
-            Background: none !important;
-            border: none !important;
-            color: black !important;
-            font-size: 30px !important;
-            padding: 0 !important;
-        }
-        
-        .st-key-black_btn button:hover {
-            color: #2563eb !important;
-            border: none;
-        }
 
         .st-key-green_btn button {
             Background-color: #88ff91 !important;
