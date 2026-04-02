@@ -1763,9 +1763,9 @@ if st.session_state.step == 355:
 st.html("""
     <style>
         .st-key-black_btn button {
-            background-color: None !important;
-            color: black !important;
+            background: none !important;
             border: none !important;
+            color: black !important;
             padding: 0 !important;
         }
         
