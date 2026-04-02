@@ -1775,7 +1775,7 @@ st.html("""
         }
 
         .st-key-green_btn button {
-            Background-color: #F3F4F6 !important;
+            Background-color: white !important;
             color: black !important;
             border: black !important;
         }
@@ -1785,7 +1785,7 @@ st.html("""
         }
         
         .st-key-red_btn button {
-            Background-color: #F3F4F6 !important;
+            Background-color: white !important;
             color: black !important;
             border: black !important;
         } 
