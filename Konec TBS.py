@@ -37,6 +37,34 @@ if "step" not in st.session_state:
 if "code" not in st.session_state:
     st.session_state.code = None
 
+st.markdown("""
+<style>
+
+/* 只选中 key="black_btn" 的按钮 */
+button[kind="secondary"][data-testid="baseButton-black_btn"] {
+    background: none !important;
+    border: none !important;
+    color: black !important;
+    padding: 0 !important;
+    text-align: left;
+}
+
+/* hover 变蓝 */
+button[kind="secondary"][data-testid="baseButton-black_btn"]:hover {
+    color: #2563eb !important;
+    background: none !important;
+}
+
+/* 去掉点击边框 */
+button[kind="secondary"][data-testid="baseButton-black_btn"]:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+</style>
+""", unsafe_allow_html=True)
+
+
 #Result
 if st.session_state.code is not None:
 
@@ -1762,16 +1790,6 @@ if st.session_state.step == 355:
 
 st.html("""
     <style>
-
-        .st-key-black_btn button {
-            background-color: #000000 !important;
-            color: white !important;
-            border: none;
-        }
-        .st-key-black_btn button:hover {
-            background-color: #000000 !important;
-            border: none;
-        }
 
         .st-key-green_btn button {
             background-color: #88ff91 !important;
