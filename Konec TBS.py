@@ -1761,8 +1761,8 @@ if st.session_state.step == 355:
 st.html("""
     <style>
         div.stButton:has(button[data-testid="baseButton-black_btn"]) {
-            display: flex;
-            justify-content: flex-end;
+            display: flex !important;
+            justify-content: flex-end !important;
         }
 
         .st-key-black_btn button {
@@ -1800,4 +1800,4 @@ st.html("""
         }
 
     </style>
-""")
+""", unsafe_allow_html=True)
