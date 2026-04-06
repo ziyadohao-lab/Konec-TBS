@@ -58,26 +58,26 @@ if st.session_state.code is not None:
         st.write("Contact Superloop firstly. If it is not AP issue, then contact Konec.")
 
     elif code == 5:
-        st.write("Contact a locksmith to replace the lock.")
+        st.write("Contact a locksmith to fix the lock.")
 
     elif code == 6:
         st.write("Performed a restart by removing all the batteries, reinstall the batteries after 1 min.")
         st.write("Confirm that the battery has no leakage.")
         st.write("If the issue persists, please reconfigure the door lock.(configuration step - video)")
-        st.write("If the problem continues after reconfiguration, please contact a locksmith to replace the lock.")
+        st.write("If the problem continues after reconfiguration, please contact a locksmith to fix the lock.")
 
     elif code == 7:
-        st.write("Contact a locksmith to replace the lock.")
+        st.write("Contact a locksmith to fix the lock.")
 
     elif code == 8:
-        st.write("Contact a locksmith to replace the lock.")
+        st.write("Contact a locksmith to fix the lock.")
 
     elif code == 9:
         st.write("Ensured batteries are properly installed. If the issue persists, replaced them with new batteries.")
         st.write("Confirm that the battery has no leakage.")
         st.write("If the issue persists, replaced them with new batteries.")
         st.write("If the issue persists, please reconfigure the door lock.(configuration step - video)")
-        st.write("If the problem continues after reconfiguration, please contact a locksmith to replace the lock")
+        st.write("If the problem continues after reconfiguration, please contact a locksmith to fix the lock")
 
     elif code == 10:
         st.write("Contact Konec.")
@@ -163,7 +163,7 @@ if st.session_state.code is not None:
         st.write("If the issue persists, please contact Konec.")
 
     elif code == 28:
-        st.write("Contact a locksmith to replace the lock.")
+        st.write("Contact a locksmith to fix the lock.")
 
     elif code == 29:
         st.write("Contact Konec to resend the key via management portal.")
@@ -176,25 +176,25 @@ if st.session_state.code is not None:
         st.write("Performed a restart by removing all the batteries, reinstall the batteries after 1 min.")
         st.write("Confirm that the battery has no leakage.")
         st.write("If the issue persists, please reconfigure the door lock.")
-        st.write("If the problem continues after reconfiguration, please contact a locksmith to replace the lock.")
+        st.write("If the problem continues after reconfiguration, please contact a locksmith to fix the lock.")
 
     elif code == 32:
         st.write("Performed a restart by removing all the batteries, reinstall the batteries after 1 min.")
         st.write("Confirm that the battery has no leakage.")
         st.write("If the issue persists, please reconfigure the door lock.")
-        st.write("If the problem continues after reconfiguration, please contact a locksmith to replace the lock.")
+        st.write("If the problem continues after reconfiguration, please contact a locksmith to fix the lock.")
 
     elif code == 33:
-        st.write("Contact a locksmith to replace the lock.")
+        st.write("Contact a locksmith to fix the lock.")
 
     elif code == 34:
         st.write("Performed a restart by removing all the batteries, reinstall the batteries after 1 min.")
         st.write("Confirm that the battery has no leakage.")
         st.write("If the issue persists, please reconfigure the door lock.")
-        st.write("If the problem continues after reconfiguration, please contact a locksmith to replace the lock.")
+        st.write("If the problem continues after reconfiguration, please contact a locksmith to fix the lock.")
 
     elif code == 35:
-        st.write("Contact a locksmith to replace the lock.")
+        st.write("Contact a locksmith to fix the lock.")
 
     elif code == 36:
         st.write("Replaced them with new batteries.")
