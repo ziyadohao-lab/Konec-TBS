@@ -37,6 +37,42 @@ if "step" not in st.session_state:
 if "code" not in st.session_state:
     st.session_state.code = None
 
+st.html("""
+    <style>
+
+        .st-key-black_btn button {
+            Background: none !important;
+            border: none !important;
+            color: black !important;
+            font-size: 30px !important;
+            padding: 0 !important;
+        }
+        
+        .st-key-black_btn button:hover {
+            color: #2563eb !important;
+            border: none;
+        }
+
+        .st-key-green_btn button {
+            Background-color: white !important;
+            color: black !important;
+        }
+        .st-key-green_btn button:hover {
+            Background-color: #88ff91 !important;
+        }
+        
+        .st-key-red_btn button {
+            Background-color: white !important;
+            color: black !important;
+        } 
+
+        .st-key-red_btn button:hover {
+            Background-color: #ff8888 !important;
+        }
+
+    </style>
+""")
+
 #Result
 if st.session_state.code is not None:
 
@@ -1831,40 +1867,3 @@ if st.session_state.step == 355:
 
     if st.button("← Back", key="black_btn"):
         next_step(350)
-
-
-st.html("""
-    <style>
-
-        .st-key-black_btn button {
-            Background: none !important;
-            border: none !important;
-            color: black !important;
-            font-size: 30px !important;
-            padding: 0 !important;
-        }
-        
-        .st-key-black_btn button:hover {
-            color: #2563eb !important;
-            border: none;
-        }
-
-        .st-key-green_btn button {
-            Background-color: white !important;
-            color: black !important;
-        }
-        .st-key-green_btn button:hover {
-            Background-color: #88ff91 !important;
-        }
-        
-        .st-key-red_btn button {
-            Background-color: white !important;
-            color: black !important;
-        } 
-
-        .st-key-red_btn button:hover {
-            Background-color: #ff8888 !important;
-        }
-
-    </style>
-""")
