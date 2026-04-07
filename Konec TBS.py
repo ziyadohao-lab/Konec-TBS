@@ -186,6 +186,10 @@ if st.session_state.code is not None:
 
     elif code == 33:
         st.write("Contact a locksmith to fix the lock.")
+        st.write("If you need to remove a broken H15B door lock, please click on the link below to watch the reference video.")
+        if st.button("Remove the H15B Door Lock", key="black_btn"):
+            st.session_state.code = 200
+            st.rerun()
 
     elif code == 34:
         st.write("Performed a restart by removing all the batteries, reinstall the batteries after 1 min.")
@@ -325,6 +329,9 @@ if st.session_state.code is not None:
 
     elif code == 68:
         st.write("Contact PMS.")
+
+    elif code == 200:
+        st.video("https://raw.githubusercontent.com/ziyadohao-lab/Konec-TBS/main/Removelock.mp4")
     
     else:
         st.write("Pending, waiting for update")
