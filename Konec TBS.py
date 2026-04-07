@@ -331,11 +331,9 @@ if st.session_state.code is not None:
         st.write("Contact PMS.")
 
     elif code == 200:
-        st.markdown("""
-        <video width="50%" controls>
-        <source src="https://raw.githubusercontent.com/ziyadohao-lab/Konec-TBS/main/Removelock.mp4" type="video/mp4">
-        </video>
-        """, unsafe_allow_html=True)
+        col1, col2, col3 = st.columns([2,1,1])
+        with col1:
+            st.video("https://raw.githubusercontent.com/ziyadohao-lab/Konec-TBS/main/Removelock.mp4")
     
     else:
         st.write("Pending, waiting for update")
