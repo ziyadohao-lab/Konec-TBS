@@ -53,6 +53,21 @@ st.html("""
             border: none;
         }
 
+        .st-key-blue_btn button {
+            Background: none !important;
+            text-decoration: underline;
+            border: none !important;
+            color: #2563eb !important;
+            font-size: 30px !important;
+            padding: 0 !important;
+        }
+        
+        .st-key-blue_btn button:hover {
+            color: #2563eb !important;
+            text-decoration: underline;
+            border: none;
+        }
+
         .st-key-green_btn button {
             Background-color: white !important;
             color: black !important;
@@ -254,7 +269,7 @@ if st.session_state.code is not None:
         st.write("Diagnosis Report:")
         st.write("Contact a locksmith to fix the lock.")
         st.write("If you need to remove a broken H15B door lock, please click on the link below to watch the reference video.")
-        if st.button("Remove the H15B Door Lock", key="black_btn"):
+        if st.button("Remove the H15B Door Lock", key="blue_btn"):
             st.session_state.code = 200
             st.rerun()
 
