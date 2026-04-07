@@ -63,7 +63,7 @@ st.html("""
         }
         
         .st-key-blue_btn button:hover {
-            color: #2563eb !important;
+            color: #004ef8 !important;
             text-decoration: underline;
             border: none;
         }
