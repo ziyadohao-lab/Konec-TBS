@@ -333,10 +333,9 @@ if st.session_state.code is not None:
     elif code == 200:
         st.markdown("""
         <video width="50%" controls>
-        <source src="video.mp4" type="video/mp4">
+        <source src="https://raw.githubusercontent.com/ziyadohao-lab/Konec-TBS/main/Removelock.mp4" type="video/mp4">
         </video>
         """, unsafe_allow_html=True)
-        st.video("https://raw.githubusercontent.com/ziyadohao-lab/Konec-TBS/main/Removelock.mp4")
     
     else:
         st.write("Pending, waiting for update")
