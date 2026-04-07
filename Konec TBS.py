@@ -230,12 +230,12 @@ if st.session_state.code is not None:
 
     elif code == 26:
         st.write("Diagnosis Report:")
-        st.write("Send the lock authorization for the resident.(Guidebook, p. 39)")
+        st.write("Send the lock authorization for the resident.(Guidebook, p.39)")
         st.write("If the issue persists, please contact Konec.")
 
     elif code == 27:
         st.write("Diagnosis Report:")
-        st.write("Send the lock authorization for the resident.(Guidebook, p. 39)")
+        st.write("Send the lock authorization for the resident.(Guidebook, p.39)")
         st.write("If the issue persists, please contact Konec.")
 
     elif code == 28:
@@ -248,7 +248,7 @@ if st.session_state.code is not None:
 
     elif code == 30:
         st.write("Diagnosis Report:")
-        st.write("Send the lock authorization for the resident.(Guidebook, p. 39)")
+        st.write("Send the lock authorization for the resident.(Guidebook, p.39)")
         st.write("If the issue persists, please contact Konec.")
 
     elif code == 31:
@@ -269,7 +269,7 @@ if st.session_state.code is not None:
         st.write("Diagnosis Report:")
         st.write("Contact a locksmith to fix the lock.")
         st.write("If you need to remove a broken H15B door lock, please click on the link below to watch the reference video.")
-        if st.button("Remove the H15B Door Lock", key="blue_btn"):
+        if st.button("📎Remove the H15B Door Lock", key="blue_btn"):
             st.session_state.code = 200
             st.rerun()
 
@@ -292,7 +292,7 @@ if st.session_state.code is not None:
     elif code == 37:
         st.write("Diagnosis Report:")
         st.write("Reauthorize device for the resident.")
-        st.write("(Similar to the steps for reassigning lock to an existing resident on Guidebook p. 39)")
+        st.write("(Similar to the steps for reassigning lock to an existing resident on Guidebook p.39)")
         st.write("If the issue persists, please check whether the resident is able to control A/C via control panel.")
 
     elif code == 38:
@@ -323,7 +323,7 @@ if st.session_state.code is not None:
 
     elif code == 44:
         st.write("Diagnosis Report:")
-        st.write("Set device parameter correctly.(Guidebook, p. 37)")
+        st.write("Set device parameter correctly.(Guidebook, p.37)")
 
     elif code == 45:
         st.write("Diagnosis Report:")
@@ -334,7 +334,7 @@ if st.session_state.code is not None:
 
     elif code == 46:
         st.write("Diagnosis Report:")
-        st.write("Set device parameter correctly.(Guidebook, p. 37)")
+        st.write("Set device parameter correctly.(Guidebook, p.37)")
         st.write("Remove the panel cover and check that the screws are in good condition and the base is installed evenly. If everything is normal, wait 30 seconds before reattaching the cover to restart the device.")
         st.write("If the device remains offline, please reconfigure the device.")
         st.write("If the problem continues after reconfiguration, please contact an electrician to replace the device.")
@@ -373,7 +373,7 @@ if st.session_state.code is not None:
     elif code == 52:
         st.write("Diagnosis Report:")
         st.write("Reauthorize device for the resident.")
-        st.write("(Similar to the steps for reassigning lock to an existing resident on Guidebook p. 39)")
+        st.write("(Similar to the steps for reassigning lock to an existing resident on Guidebook p.39)")
         st.write("If the issue persists, please contact Konec.")
 
     elif code == 53:
