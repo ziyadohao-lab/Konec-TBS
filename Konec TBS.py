@@ -331,6 +331,11 @@ if st.session_state.code is not None:
         st.write("Contact PMS.")
 
     elif code == 200:
+        st.markdown("""
+        <video width="100%" controls>
+        <source src="video.mp4" type="video/mp4">
+        </video>
+        """, unsafe_allow_html=True)
         st.video("https://raw.githubusercontent.com/ziyadohao-lab/Konec-TBS/main/Removelock.mp4")
     
     else:
