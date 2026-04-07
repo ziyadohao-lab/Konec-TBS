@@ -332,7 +332,7 @@ if st.session_state.code is not None:
 
     elif code == 200:
         st.markdown("""
-        <video width="100%" controls>
+        <video width="50%" controls>
         <source src="video.mp4" type="video/mp4">
         </video>
         """, unsafe_allow_html=True)
