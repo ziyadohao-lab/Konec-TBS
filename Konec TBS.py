@@ -55,7 +55,6 @@ st.html("""
 
         .st-key-blue_btn button {
             Background: none !important;
-            text-decoration: underline;
             border: none !important;
             color: #2563eb !important;
             font-size: 30px !important;
