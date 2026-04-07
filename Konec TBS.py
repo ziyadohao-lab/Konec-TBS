@@ -42,37 +42,44 @@ if st.session_state.code is not None:
 
     code = st.session_state.code
 
-    st.write("Diagnosis Report:")
-
     if code == 1:
+        st.write("Diagnosis Report:")
         st.write("Contact Konec.")
 
     elif code == 2:
+        st.write("Diagnosis Report:")
         st.write("Turn on circuit break.")
         st.write("If the gateway remains offline, check the Access Point (AP) status.")
 
     elif code == 3:
+        st.write("Diagnosis Report:")
         st.write("Contact Superloop firstly. If it is not AP issue, then contact Konec.")
 
     elif code == 4:
+        st.write("Diagnosis Report:")
         st.write("Contact Superloop firstly. If it is not AP issue, then contact Konec.")
 
     elif code == 5:
+        st.write("Diagnosis Report:")
         st.write("Contact a locksmith to fix the lock.")
 
     elif code == 6:
+        st.write("Diagnosis Report:")
         st.write("Performed a restart by removing all the batteries, reinstall the batteries after 1 min.")
         st.write("Confirm that the battery has no leakage.")
         st.write("If the issue persists, please reconfigure the door lock.(configuration step - video)")
         st.write("If the problem continues after reconfiguration, please contact a locksmith to fix the lock.")
 
     elif code == 7:
+        st.write("Diagnosis Report:")
         st.write("Contact a locksmith to fix the lock.")
 
     elif code == 8:
+        st.write("Diagnosis Report:")
         st.write("Contact a locksmith to fix the lock.")
 
     elif code == 9:
+        st.write("Diagnosis Report:")
         st.write("Ensured batteries are properly installed. If the issue persists, replaced them with new batteries.")
         st.write("Confirm that the battery has no leakage.")
         st.write("If the issue persists, replaced them with new batteries.")
@@ -80,111 +87,135 @@ if st.session_state.code is not None:
         st.write("If the problem continues after reconfiguration, please contact a locksmith to fix the lock")
 
     elif code == 10:
+        st.write("Diagnosis Report:")
         st.write("Contact Konec.")
 
     elif code == 11:
+        st.write("Diagnosis Report:")
         st.write("Turn on circuit break.")
         st.write("If the device remains offline, please reconfigure the device.")
         st.write("If the problem continues after reconfiguration, please contact an electrician to replace the device.")
 
 
     elif code == 12:
+        st.write("Diagnosis Report:")
         st.write("The issue could be either a wiring problem or a faulty device that needs replacement.")
         st.write("Contact an electrician. ")
 
     elif code == 13:
+        st.write("Diagnosis Report:")
         st.write("Restart the device by turning the circuit breaker off and on.")
         st.write("If the device remains offline, please reconfigure the device.")
         st.write("If the problem continues after reconfiguration, please contact an electrician to replace the device.")
 
     elif code == 14:
+        st.write("Diagnosis Report:")
         st.write("Restart the device by turning the circuit breaker off and on.")
         st.write("If the device remains offline, please reconfigure the device.")
         st.write("If the problem continues after reconfiguration, please contact an electrician to replace the device.")
 
     elif code == 15:
+        st.write("Diagnosis Report:")
         st.write("Remove the panel cover and check that the screws are in good condition and the base is installed evenly. If everything is normal, wait 30 seconds before reattaching the cover to restart the device.")
         st.write("The following images show possible abnormal installation conditions.")
         st.write("If the device remains offline, please reconfigure the device.")
         st.write("If the problem continues after reconfiguration, please contact an electrician to replace the device.")
 
     elif code == 16:
+        st.write("Diagnosis Report:")
         st.write("Contact an electrician to check the wiring or external device.")
 
     elif code == 17:
+        st.write("Diagnosis Report:")
         st.write("Remove the panel cover, check whether the screw condition is normal and whether the base is installed evenly. ")
         st.write("The following images show possible abnormal installation conditions.")
         st.write("If everything is normal, then contact an electrician to replace the device.")
 
     elif code == 18:
+        st.write("Diagnosis Report:")
         st.write("Remove the item, the device come ← Back online after a while.")
 
     elif code == 19:
+        st.write("Diagnosis Report:")
         st.write("Remove the panel cover and check that the screws are in good condition and the base is installed evenly. If everything is normal, wait 30 seconds before reattaching the cover to restart the device.")
         st.write("The following images show possible abnormal installation conditions.")
         st.write("If the device remains offline, please reconfigure the device.")
         st.write("If the problem continues after reconfiguration, please contact an electrician to replace the device.")
 
     elif code == 20:
+        st.write("Diagnosis Report:")
         st.write("Remove the panel cover, check whether the screw condition is normal and whether the base is installed evenly. ")
         st.write("The following images show possible abnormal installation conditions.")
         st.write("If everything is normal, then contact an electrician to replace the device.")
 
     elif code == 21:
+        st.write("Diagnosis Report:")
         st.write("Remove the panel cover, check whether the screw condition is normal and whether the base is installed evenly. ")
         st.write("The following images show possible abnormal installation conditions.")
         st.write("If everything is normal, then contact an electrician to replace the device.")
 
     elif code == 22:
+        st.write("Diagnosis Report:")
         st.write("Turn on circuit break.")
 
     elif code == 23:
+        st.write("Diagnosis Report:")
         st.write("Remove the panel cover and check that the screws are in good condition and the base is installed evenly. If everything is normal, wait 30 seconds before reattaching the cover to restart the device.")
         st.write("The following images show possible abnormal installation conditions.")
         st.write("If the device remains offline, please reconfigure the device.")
         st.write("If the problem continues after reconfiguration, please contact an electrician to replace the device.")
 
     elif code == 24:
+        st.write("Diagnosis Report:")
         st.write("Remove the panel cover, check whether the screw condition is normal and whether the base is installed evenly. ")
         st.write("The following images show possible abnormal installation conditions.")
         st.write("If everything is normal, then contact an electrician to replace the device.")
 
     elif code == 25:
+        st.write("Diagnosis Report:")
         st.write("Remove the panel cover, check whether the screw condition is normal and whether the base is installed evenly. ")
         st.write("The following images show possible abnormal installation conditions.")
         st.write("If everything is normal, then contact an electrician to replace the device.")
 
     elif code == 26:
+        st.write("Diagnosis Report:")
         st.write("Send the lock authorization for the resident.(Guidebook, p. 39)")
         st.write("If the issue persists, please contact Konec.")
 
     elif code == 27:
+        st.write("Diagnosis Report:")
         st.write("Send the lock authorization for the resident.(Guidebook, p. 39)")
         st.write("If the issue persists, please contact Konec.")
 
     elif code == 28:
+        st.write("Diagnosis Report:")
         st.write("Contact a locksmith to fix the lock.")
 
     elif code == 29:
+        st.write("Diagnosis Report:")
         st.write("Contact Konec to resend the key via management portal.")
 
     elif code == 30:
+        st.write("Diagnosis Report:")
         st.write("Send the lock authorization for the resident.(Guidebook, p. 39)")
         st.write("If the issue persists, please contact Konec.")
 
     elif code == 31:
+        st.write("Diagnosis Report:")
         st.write("Performed a restart by removing all the batteries, reinstall the batteries after 1 min.")
         st.write("Confirm that the battery has no leakage.")
         st.write("If the issue persists, please reconfigure the door lock.")
         st.write("If the problem continues after reconfiguration, please contact a locksmith to fix the lock.")
 
     elif code == 32:
+        st.write("Diagnosis Report:")
         st.write("Performed a restart by removing all the batteries, reinstall the batteries after 1 min.")
         st.write("Confirm that the battery has no leakage.")
         st.write("If the issue persists, please reconfigure the door lock.")
         st.write("If the problem continues after reconfiguration, please contact a locksmith to fix the lock.")
 
     elif code == 33:
+        st.write("Diagnosis Report:")
         st.write("Contact a locksmith to fix the lock.")
         st.write("If you need to remove a broken H15B door lock, please click on the link below to watch the reference video.")
         if st.button("Remove the H15B Door Lock", key="black_btn"):
@@ -192,142 +223,177 @@ if st.session_state.code is not None:
             st.rerun()
 
     elif code == 34:
+        st.write("Diagnosis Report:")
         st.write("Performed a restart by removing all the batteries, reinstall the batteries after 1 min.")
         st.write("Confirm that the battery has no leakage.")
         st.write("If the issue persists, please reconfigure the door lock.")
         st.write("If the problem continues after reconfiguration, please contact a locksmith to fix the lock.")
 
     elif code == 35:
+        st.write("Diagnosis Report:")
         st.write("Contact a locksmith to fix the lock.")
 
     elif code == 36:
+        st.write("Diagnosis Report:")
         st.write("Replaced them with new batteries.")
         st.write("Please contact Konec. Konec will monitor the situation from the platform and identify the issues.")
 
     elif code == 37:
+        st.write("Diagnosis Report:")
         st.write("Reauthorize device for the resident.")
         st.write("(Similar to the steps for reassigning lock to an existing resident on Guidebook p. 39)")
         st.write("If the issue persists, please check whether the resident is able to control A/C via control panel.")
 
     elif code == 38:
+        st.write("Diagnosis Report:")
         st.write("Contact an electrician to check the A/C issue.")
 
     elif code == 39:
+        st.write("Diagnosis Report:")
         st.write("Contact Konec.")
 
     elif code == 40:
+        st.write("Diagnosis Report:")
         st.write("Please follow the troubleshooting steps for devices that fail to respond to APP control to ensure all IoT devices can be controlled via the APP.")
 
     elif code == 41:
+        st.write("Diagnosis Report:")
         st.write("Contact Konec to set up automation / re-enable automation.")
 
     elif code == 42:
+        st.write("Diagnosis Report:")
         st.write("Restart the device by turning the circuit breaker off and on.")
         st.write("If the issue persists, please contact an electrician to replace the device")
 
     elif code == 43:
+        st.write("Diagnosis Report:")
         st.write("Restart the device by turning the circuit breaker off and on.")
         st.write("If the issue persists, please contact an electrician to replace the device")
 
     elif code == 44:
+        st.write("Diagnosis Report:")
         st.write("Set device parameter correctly.(Guidebook, p. 37)")
 
     elif code == 45:
+        st.write("Diagnosis Report:")
         st.write("Remove the panel cover and check that the screws are in good condition and the base is installed evenly. If everything is normal, wait 30 seconds before reattaching the cover to restart the device.")
         st.write("The following images show possible abnormal installation conditions.")
         st.write("If the device remains offline, please reconfigure the device.")
         st.write("If the problem continues after reconfiguration, please contact an electrician to replace the device.")
 
     elif code == 46:
+        st.write("Diagnosis Report:")
         st.write("Set device parameter correctly.(Guidebook, p. 37)")
         st.write("Remove the panel cover and check that the screws are in good condition and the base is installed evenly. If everything is normal, wait 30 seconds before reattaching the cover to restart the device.")
         st.write("If the device remains offline, please reconfigure the device.")
         st.write("If the problem continues after reconfiguration, please contact an electrician to replace the device.")
 
     elif code == 47:
+        st.write("Diagnosis Report:")
         st.write("Remove the panel cover, check whether the screw condition is normal and whether the base is installed evenly. ")
         st.write("The following images show possible abnormal installation conditions.")
         st.write("If everything is normal, then contact an electrician to replace the device.")
 
     elif code == 48:
+        st.write("Diagnosis Report:")
         st.write("Remove the panel cover, check whether the screw condition is normal and whether the base is installed evenly. ")
         st.write("The following images show possible abnormal installation conditions.")
         st.write("If everything is normal, then contact an electrician to replace the device.")
 
     elif code == 49:
+        st.write("Diagnosis Report:")
         st.write("Remove the panel cover, check whether the screw condition is normal and whether the base is installed evenly. ")
         st.write("The following images show possible abnormal installation conditions.")
         st.write("Contact an electrician to replace the device.")
 
     elif code == 50:
+        st.write("Diagnosis Report:")
         st.write("Remove the panel cover, check whether the screw condition is normal and whether the base is installed evenly. ")
         st.write("The following images show possible abnormal installation conditions.")
         st.write("Contact an electrician to replace the device.")
 
     elif code == 51:
+        st.write("Diagnosis Report:")
         st.write("Remove the panel cover and check that the screws are in good condition and the base is installed evenly. If everything is normal, wait 30 seconds before reattaching the cover to restart the device.")
         st.write("The following images show possible abnormal installation conditions.")
         st.write("If the device remains offline, please reconfigure the device.")
         st.write("If the problem continues after reconfiguration, please contact an electrician to replace the device.")
 
     elif code == 52:
+        st.write("Diagnosis Report:")
         st.write("Reauthorize device for the resident.")
         st.write("(Similar to the steps for reassigning lock to an existing resident on Guidebook p. 39)")
         st.write("If the issue persists, please contact Konec.")
 
     elif code == 53:
+        st.write("Diagnosis Report:")
         st.write("Contact Konec.")
 
     elif code == 54:
+        st.write("Diagnosis Report:")
         st.write("Contact Konec to check and reset Multi-control.")
 
     elif code == 55:
+        st.write("Diagnosis Report:")
         st.write("Please follow the troubleshooting steps for control issue to ensure both devices are ← Back online.")
 
     elif code == 56:
+        st.write("Diagnosis Report:")
         st.write("Re-plug both the cable and the gateway power adapter.")
         st.write("If the issue persists, please contact Konec to check and reset multi-control.")
 
     elif code == 57:
+        st.write("Diagnosis Report:")
         st.write("Please follow the troubleshooting steps for control issue to ensure both devices are ← Back online.")
 
     elif code == 58:
+        st.write("Diagnosis Report:")
         st.write("Contact Konec to check and reset automation")
 
     elif code == 59:
+        st.write("Diagnosis Report:")
         st.write("Re-plug both the cable and the gateway power adapter.")
         st.write("If the issue persists, please contact Konec to check and reset automation")
 
     elif code == 60:
+        st.write("Diagnosis Report:")
         st.write("Contact an electrician to check the wiring or replace the device.")
 
     elif code == 61:
+        st.write("Diagnosis Report:")
         st.write("The issue appears to be with the external device, not Konec product.")
 
     elif code == 62:
+        st.write("Diagnosis Report:")
         st.write("Please contact Konec and provide the resident's account, app logs, and phone model.")
 
     elif code == 63:
+        st.write("Diagnosis Report:")
         st.write("Add public area device authorizations for the room.")
         st.write("Add public area device authorizations for the resident.")
         st.write("If the issue persists, please check whether the resident has been granted access in Innerrange.")
         st.write("If there is an authorization issue with Innerrange, please contact Konec and provide the resident's account, app logs, and phone model.")
 
     elif code == 64:
+        st.write("Diagnosis Report:")
         st.write("Add public area device authorizations for the resident.")
         st.write("If the issue persists, please check whether the resident has been granted access in Innerrange.")
         st.write("If there is an authorization issue with Innerrange, please contact Konec and provide the resident's account, app logs, and phone model.")
 
     elif code == 65:
+        st.write("Diagnosis Report:")
         st.write("Contact PMS.")
 
     elif code == 66:
+        st.write("Diagnosis Report:")
         st.write("Contact Konec.")
 
     elif code == 67:
+        st.write("Diagnosis Report:")
         st.write("Contact Konec.")
 
     elif code == 68:
+        st.write("Diagnosis Report:")
         st.write("Contact PMS.")
 
     elif code == 200:
