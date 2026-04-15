@@ -1,5 +1,4 @@
 import streamlit as st
-from ai_engine import load_qa
 
 st.markdown("""
 <style>
@@ -32,8 +31,6 @@ st.markdown(
 st.set_page_config(page_title="Troubleshooting", page_icon="🔧", layout="wide")
 
 st.title("Troubleshooting Tool")
-
-mode = st.radio("Select Mode", ["Manual Troubleshooting", "AI Assistant"])
 
 if "step" not in st.session_state:
     st.session_state.step = 0
@@ -526,28 +523,6 @@ if st.session_state.step == 0:
 
     if st.button("I Agree", key = "green_btn"):
         next_step(1)
-
-if mode == "AI Assistant":
-
-    st.subheader("AI Troubleshooting Assistant")
-
-    if "qa" not in st.session_state:
-        st.session_state.qa = load_qa()
-
-    user_input = st.text_input("Describe your issue")
-
-    if user_input:
-        answer = st.session_state.qa.run(user_input)
-
-        st.write("### Diagnosis Report")
-        st.write(answer)
-
-        # 🔥 可选：推荐进入流程
-        if st.button("👉 Go to Guided Troubleshooting"):
-            st.session_state.step = 1
-            st.rerun()
-
-    st.stop()
 
 # Select device
 if st.session_state.step == 1:
